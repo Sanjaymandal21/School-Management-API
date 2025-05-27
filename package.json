@@ -1,0 +1,22 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This repository contains a **Node.js** and **Express.js** based API for managing school data. The API allows users to **add new schools** and **retrieve a list of schools sorted by proximity** to a user-specified location. The data is stored in **MySQL**.",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.13.0",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {}
+}
